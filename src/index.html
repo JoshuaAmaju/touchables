@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"
+    />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/touchables.esm.js"></script>
+    <script nomodule src="/build/touchables.js"></script>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        height: 100vh;
+      }
+
+      button {
+        width: 10em;
+        margin: 1em;
+        height: 10em;
+        border: none;
+        outline: none;
+        color: #fff;
+        border-radius: 5px;
+        background: blue;
+        padding: 0.7em 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <touchable-blur>
+      <button>press me</button>
+    </touchable-blur>
+  </body>
+</html>
